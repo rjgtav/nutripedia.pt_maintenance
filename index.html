@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: 'Chirota';
+            font-display: swap;
+            src: url('/assets/fonts/Chirota.otf'),
+                 url('/assets/fonts/Chirota.woff'),
+                 url('/assets/fonts/Chirota.woff2');
+        }
+
+        h1 { font-size: 2.5rem }
+        h5 { font-size: 1.25rem }
+
+        :root {
+            --background: #F5F7FA;
+            --primary: #52709c;
+        }
+
+        body {
+            background: var(--background);
+            font-family: Chirota, sans-serif;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        img {
+            display: block;
+            margin: auto;
+            max-width: 500px;
+        }
+
+        .container {
+            margin: auto;
+            max-width: 600px;
+            min-width: 300px;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: var(--primary); margin-bottom: 0; margin-top: 3rem; text-align: center">Voltamos em breve</h1>
+        <h5>
+            Pedimos desculpa mas a Nutripédia.pt encontra-se em manutenção.<br>
+            Esperamos ser breves.
+        </h5>
+        <img style="transform: scaleX(-1)" src="/assets/images/undraw_logistics_x-4-dc.svg">
+        <h5>
+            Para esclarecimentos adicionais, pode contactar-nos através dos canais habituais:
+            <ul>
+                <li><a href="mailto:ajuda@nutripedia.pt">E-mail</a></li>
+                <li><a href="https://www.facebook.com/nutripedia.pt">Facebook</a></li>
+                <li><a href="https://www.instagram.com/nutripedia.pt">Instagram</a></li>
+            </ul>
+        </h5>
+    </div>
+</body>
+</html>
